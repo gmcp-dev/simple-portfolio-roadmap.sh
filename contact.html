@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Contact</title>
+    <meta name="description" content="It has information about projects and experience">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Portfolio - Gerald Caraballo">
+    <meta property="og:description" content="It has information about projects and experience">
+    <meta property="og:image" content="https://github.com/gmcp-dev/singlepage-cv/favicon.svg">
+    <meta property="og:url" content="https://github.com/gmcp-dev/singlepage-cv">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <script src="src/js/scripts.js"></script>
+    <style>
+        main {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-direction: column;
+            padding: 40px 0;
+        }
+
+        main > h2 {
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 40px;
+        }
+
+        form section {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+
+        form section label {
+            font-weight: 500;
+        }
+
+        form section input {
+            padding: 5px;
+        }
+
+        form section textarea {
+            width: 400px;
+            height: 200px;
+            padding: 10px;
+        }
+
+        form button {
+            margin-left: auto;
+            padding: 5px 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main-container" class="fixed-container">
+
+        <!-- Nav is added dynamically -->
+
+        <header>
+            <h1>Contact</h1>
+        </header>
+
+        <main>
+            <h2>Send me a message</h2>
+            <form action="#">
+                <section>
+                    <label for="input-name">Name:</label>
+                    <input type="text" name="input-name" id="input-name" placeholder="Your first and lastname">
+                </section>
+
+                <section>
+                    <label for="input-email">Email:</label>
+                    <input type="email" name="input-email" id="input-email" placeholder="example@example.com">
+                </section>
+
+                <section>
+                    <label for="textarea-message">Message:</label>
+                    <textarea name="textarea-message" id="textarea-message" placeholder="Your message here..."></textarea>
+                </section>
+                
+                <button type="submit">Send message</button>
+            </form>
+        </main>
+
+        <!-- Footer is added dynamically -->
+    </div>
+</body>
+</html>
