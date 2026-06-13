@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Projects</title>
+    <meta name="description" content="It has information about projects and experience">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Portfolio - Gerald Caraballo">
+    <meta property="og:description" content="It has information about projects and experience">
+    <meta property="og:image" content="https://github.com/gmcp-dev/singlepage-cv/favicon.svg">
+    <meta property="og:url" content="https://github.com/gmcp-dev/singlepage-cv">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <script src="src/js/scripts.js"></script>
+    <style>
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 40px;
+        }
+
+        main > article {
+            width: calc(100% / 2 - 4px);
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 2px;
+            padding: 20px;
+        }
+
+        main > article > h3 {
+            margin-bottom: 10px;
+        }
+
+        main > article > p {
+            flex-grow: 1;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main-container" class="fixed-container">
+
+        <!-- Nav is added dynamically -->
+
+        <header>
+            <h1>Projects</h1>
+        </header>
+
+        <main>
+            <article>
+                <h3>Single Page CV</h3>
+                <p>
+                    A simple page with a CV design built with HTML.
+                </p>
+                <a href="#">See it at GitHub</a>
+            </article>
+
+            <article>
+                <h3>Single Page CV</h3>
+                <p>
+                    A simple page with a CV design built with HTML.
+                </p>
+                <a href="#">See it at GitHub</a>
+            </article>
+        </main>
+
+        <!-- Footer is added dynamically -->
+    </div>
+</body>
+</html>
